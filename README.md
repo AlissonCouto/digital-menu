@@ -37,32 +37,39 @@ O **Sistema de Gestão de Pedidos** foi desenvolvido para auxiliar restaurantes,
 ```bash
 git clone https://github.com/AlissonCouto/digital-menu.git
 cd digital-menu
+```
 
 ### Passo 2: Instalar Dependências PHP
 ```bash
 composer install
+```
 
 ### Passo 3: Configurar o Arquivo .env
 Renomeie o arquivo `.env.example` para `.env`:
 
 ```bash
 cp .env.example .env
+```
 
 ### Passo 4: Gerar a Chave da Aplicação
 ```bash
 php artisan key:generate
+```
 
 ### Passo 5: Executar Migrações e Seeders
 ```bash
 php artisan migrate --seed
+```
 
 ### Passo 6: Instalar Dependências Front-End
 ```bash
 npm install
+```
 
 ### Passo 7: Compilar os Assets do Front-End
 ```bash
 npm run dev
+```
 
 ### Passo 8: Iniciar o Servidor
 Execute os seguintes comandos em terminais separados:
@@ -70,15 +77,18 @@ Execute os seguintes comandos em terminais separados:
 - **Servidor PHP:**
 ```bash
 php artisan serve
+```
 
 
 - **WebSocket:**
 ```bash
 php artisan reverb:start
+```
 
 - **Gerenciador de Filas:**
 ```bash
 php artisan queue:work
+```
 
 O sistema estará acessível em: http://localhost:8000.
 
