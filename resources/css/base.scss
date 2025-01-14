@@ -1,0 +1,155 @@
+$background: #242424;
+$white: #fff;
+$black: #000;
+$yellow: #f7b035;
+$yellow2: #ad7005;
+$red: #fb1432;
+$red2: #700715;
+$blue: #3535ff;
+$blue2: #0E43B2;
+$purple: #5b29d9;
+$purple2: #280a72;
+$green: #046559;
+$save: #1cbf86;
+$black2: #424242;
+$gray: #f6f6f6;
+
+$title: "Montserrat", sans-serif;
+$text: "Roboto", sans-serif;
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    min-height: 100vh;
+    font-size: 62.5%;
+}
+
+.-yes{
+    color: $green;
+} // .-yes
+
+.-no{
+    color: $red;
+} // .no
+
+.alert{
+    font-size: 1.5rem;
+} // .alert
+
+.field-error{
+    color: $red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} // .field-error
+
+/* Overlayer do modal */
+.overlayer{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+
+} // .overlayer
+
+.overlayer-address,
+.overlayer-delete,
+.overlayer-options,
+.overlayer-ingredients{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+
+} // .overlayer-address
+
+.status{
+    font-size: 1.1rem;
+    padding: 4px 8px;
+    border-radius: 5px;
+    line-height: 1.6rem;
+    height: 25px;
+    color: $background!important;
+    font-weight: bold;
+
+    /*
+        'realized','inanalysis','inproduction','ready','closed','rejected','canceled'
+    */
+    &.-realized{
+        background-color: #1cbf86;
+    } // .-realized
+
+    &.-inanalysis{
+        background-color: #fea700;
+    } // .-inanalysis
+
+    &.-inproduction{
+        background-color: $blue;
+        color: $white!important;
+    } // .-inproduction
+
+    &.-ready{
+        background-color: orange;
+    } // .-ready
+
+    &.-closed{
+        background-color: #1cbf86;
+    } // .-closed
+
+    &.-rejected{
+        background-color: $red2;
+        color: $white!important;
+    } // .-rejected
+
+    &.-canceled{
+        background-color: #d91b37;
+    } // .-canceled
+
+    
+} // .status
+
+.bordererror{
+    border: 1px solid $red!important;
+} // .bordererror
+
+.bordersuccess{
+    border: 1px solid #1cbf86!important;
+} // .bordersuccess
+
+.coupon{
+
+    .message{
+        font-size: 1.5rem;
+        
+        &.success{
+            color: #1cbf86;
+        } // .success
+
+        &.error{
+            color: $red;
+        } // .error
+    } // .message
+
+} // .coupon
+
+.errorclient,
+.errorflavor{
+    font-size: 1.5rem;
+    color: $red;
+    margin-top: 5px;
+} // .errorclient

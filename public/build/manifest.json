@@ -1,0 +1,74 @@
+{
+  "resources/css/admin.css": {
+    "file": "assets/admin-DirEcdnt.css",
+    "src": "resources/css/admin.css",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BjSxkjps.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/cart.css": {
+    "file": "assets/cart-BqbpkF0p.css",
+    "src": "resources/css/cart.css",
+    "isEntry": true
+  },
+  "resources/css/charts.css": {
+    "file": "assets/charts-D0F-T94S.css",
+    "src": "resources/css/charts.css",
+    "isEntry": true
+  },
+  "resources/css/login.css": {
+    "file": "assets/login-DjMFAbPy.css",
+    "src": "resources/css/login.css",
+    "isEntry": true
+  },
+  "resources/css/orders.css": {
+    "file": "assets/orders-DUSbfBwb.css",
+    "src": "resources/css/orders.css",
+    "isEntry": true
+  },
+  "resources/js/admin.js": {
+    "file": "assets/admin-B89mdI_N.js",
+    "name": "admin",
+    "src": "resources/js/admin.js",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Bc7qoc1P.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/cart.js": {
+    "file": "assets/cart-dx8IxH-Z.js",
+    "name": "cart",
+    "src": "resources/js/cart.js",
+    "isEntry": true
+  },
+  "resources/js/charts.js": {
+    "file": "assets/charts-DAengaak.js",
+    "name": "charts",
+    "src": "resources/js/charts.js",
+    "isEntry": true
+  },
+  "resources/js/edit-orders.js": {
+    "file": "assets/edit-orders-BInDnhnl.js",
+    "name": "edit-orders",
+    "src": "resources/js/edit-orders.js",
+    "isEntry": true
+  },
+  "resources/js/orders.js": {
+    "file": "assets/orders-B-enFZSP.js",
+    "name": "orders",
+    "src": "resources/js/orders.js",
+    "isEntry": true
+  },
+  "resources/js/validate.js": {
+    "file": "assets/validate--OQfU3SQ.js",
+    "name": "validate",
+    "src": "resources/js/validate.js",
+    "isEntry": true
+  }
+}

@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-size: 62.5%;
+}
+
+.alert {
+  font-size: 1.5rem;
+}
+
+/* Overlayer do modal */
+.overlayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100vw;
+}
+
+.overlayer-address {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100vw;
+}
+
+.status {
+  font-size: 1.1rem;
+  padding: 4px 8px;
+  border-radius: 5px;
+  line-height: 1.6rem;
+  height: 25px;
+  color: #242424 !important;
+  font-weight: bold;
+  /*
+      'closed', 'producing', 'pending', 'canceled', 'ready'
+  */
+}
+.status.-closed {
+  background-color: #1cbf86;
+}
+.status.-producing {
+  background-color: #3535ff;
+}
+.status.-pending {
+  background-color: #fea700;
+}
+.status.-canceled {
+  background-color: #d91b37;
+}
+.status.-ready {
+  background-color: orange;
+}
+
+.bordererror {
+  border: 1px solid #fb1432 !important;
+}
+
+.bordersuccess {
+  border: 1px solid #1cbf86 !important;
+}
+
+.coupon .message {
+  font-size: 1.5rem;
+}
+.coupon .message.success {
+  color: #1cbf86;
+}
+.coupon .message.error {
+  color: #fb1432;
+}
+
+.errorclient {
+  font-size: 1.5rem;
+  color: #fb1432;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-size: 62.5%;
+}
+
+.container-login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.container-login .col-left {
+  width: 40.6086044071%;
+  background: linear-gradient(90deg, #fdf0fa, #edf7ff, #edf7ff);
+}
+.container-login .col-left .logo {
+  margin-bottom: 32px;
+}
+.container-login .col-left .meta-infos {
+  padding: 200px 0 0 100px;
+}
+.container-login .col-left .meta-infos .title {
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 5rem;
+  color: #1c2b33;
+  margin-bottom: 32px;
+}
+.container-login .col-left .meta-infos .title strong {
+  font-weight: bold;
+  color: #fb1432;
+}
+.container-login .col-left .meta-infos .text {
+  font-size: 1.8rem;
+  color: #1c2b33;
+}
+.container-login .col-middle {
+  width: 23.8195173137%;
+  background-color: #eaebef;
+}
+.container-login .col-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35.4144805876%;
+}
+.container-login .col-right .auth-session-status {
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .container-login .col-right .auth-session-status {
+    width: 50%;
+  }
+}
+.container-login .col-right form {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .container-login .col-right form {
+    width: 70%;
+  }
+}
+.container-login .col-right form > div {
+  display: flex;
+  flex-direction: column;
+}
+.container-login .col-right form label {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #1c2b33;
+}
+.container-login .col-right form input[type=text],
+.container-login .col-right form input[type=email],
+.container-login .col-right form input[type=password] {
+  border: 2px solid #CBD2D9;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  padding: 4px 8px;
+  width: 100%;
+  box-shadow: none;
+}
+.container-login .col-right form ul {
+  list-style: none;
+  font-size: 1.5rem;
+  color: #fb1432;
+  padding: 0;
+  font-weight: 500;
+}
+.container-login .col-right form .remember-me {
+  display: flex;
+  margin: 16px 0;
+  font-size: 1.3rem;
+}
+.container-login .col-right form .remember-me input[type=checkbox] {
+  margin-left: 15px;
+}
+.container-login .col-right form .forgot-password {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+.container-login .col-right form .submit {
+  display: flex;
+  font-size: 2rem;
+  background-color: #f7b035;
+  align-items: center;
+  justify-content: center;
+  color: #242424;
+  padding: 8px 16px;
+  border-radius: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+.container-login .col-right form .submit:hover {
+  color: #fff;
+  background-color: #ad7005;
+}
+
+/*# sourceMappingURL=login.css.map */
